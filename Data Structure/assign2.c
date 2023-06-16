@@ -26,6 +26,7 @@ struct Items
 void main()
 { 
     int count;
+    
     printf("No_of_goods:");
     scanf("%d", &count);
     struct Items  itm[count];
@@ -74,6 +75,7 @@ void main()
         
         default:
             printf("Only two choices available");
+        
             a--;
             break;
         }
