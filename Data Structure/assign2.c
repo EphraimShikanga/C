@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <malloc.h>
-#include <conio.h>
+// #include <conio.h>
 
 struct Items
 {
@@ -29,7 +29,7 @@ void main()
     
     printf("No_of_goods:");
     scanf("%d", &count);
-    struct Items  itm[count];
+    struct Items  itm[];
 
     for (int a=0; a<count; a++)
     {
